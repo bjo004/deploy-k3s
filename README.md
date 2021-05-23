@@ -46,14 +46,14 @@ JOB_OPTIONS:
 
 # Usage
 ```console
-./deploy-k3s.sh --mnips "10.22.17.11 10.22.17.12 10.22.17.13" \
-                --anips "10.22.17.14 10.22.17.15 10.22.17.16 10.22.17.17" \
-                --nlbnips "10.22.17.10" \
-                --npkp "/.ssh/id_rsa" \
-                --rmun admin \
-                --etcdv 3.4.10 \
-                --k3sv 1.19.7 \
-                --job installEverything
+./deploy-k3s.sh -mnips "10.22.17.11 10.22.17.12 10.22.17.13" \
+                -anips "10.22.17.14 10.22.17.15 10.22.17.16 10.22.17.17" \
+                -nlbnips "10.22.17.10" \
+                -npkp "/.ssh/id_rsa" \
+                -rmun admin \
+                -etcdv 3.4.10 \
+                -k3sv 1.19.7 \
+                -job installEverything
     
 ./deploy-k3s.sh --masterNodeIps "10.22.17.11 10.22.17.12 10.22.17.13" \
                 --agentNodeIps "10.22.17.14 10.22.17.15 10.22.17.16 10.22.17.17" \
