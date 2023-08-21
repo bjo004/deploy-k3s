@@ -47,7 +47,7 @@ JOB_OPTIONS:
     uetcd,     uninstallEtcd        This will completely uninstall etcd on all instances and wipe any binaries as well as systemd entries
     ik3s,      installK3s           This will install production ready k3s on selected master and agent nodes. Etcd needs to be installed first. 
     upk3s,     upgradeK3s           Supply the k3s version (i.e. k3sv or k3sVersion) and k3s server and agents will be upgraded accordingly.
-    uk3s,      installK3s           This will completely uninstall k3s completely by running the uninstall script that comes with the k3s deployment
+    uk3s,      uninstallK3s         This will completely uninstall k3s completely by running the uninstall script that comes with the k3s deployment
     ingx,      installNginx         This will install configure and start nginx
     ungx,      uninstallNginx       This will stop, uninstall and purge nginx artifacts 
     iev,       installEverything    This will install k3s agents, masters and etcd and start the services respectively
